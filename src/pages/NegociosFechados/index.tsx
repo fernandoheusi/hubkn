@@ -62,7 +62,7 @@ export function NegociosFechados(){
 		<Container>
 			<main>
 						<div id='chart-div'>
-							{/* <h1>{selectChartTitle()}</h1> */}
+							<h1>{selectChartTitle()}</h1>
 							<Chart
 								domainPadding={20}
 								theme={VictoryTheme.material}
