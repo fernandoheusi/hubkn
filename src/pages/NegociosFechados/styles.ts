@@ -20,11 +20,14 @@ export const Container = styled.div`
 				align-items: center;
 				justify-content: center;
 				text-align:center;
-				max-width: 700px;
+				max-width: 768px;
 
 					h1{
 						margin-top: 20px;
 						margin-bottom: -50px;
+						color: #0068fc;
+						font: 400 24px 'Roboto', sans-serif;
+						/* font-family: 500 36px 'Roboto', sans-serif; */
 					}
 			}
 	}

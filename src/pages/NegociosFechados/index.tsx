@@ -66,6 +66,7 @@ export function NegociosFechados(){
 							<Chart
 								domainPadding={20}
 								theme={VictoryTheme.material}
+								height={16*chartArray.length+90}
 							>
 								<VictoryAxis 
 									dependentAxis

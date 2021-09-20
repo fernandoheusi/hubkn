@@ -84,6 +84,7 @@ export function Home(){
 							<Chart
 								domainPadding={20}
 								theme={VictoryTheme.material}
+								height={16*chartArray.length+90}
 							>
 								<VictoryAxis 
 									dependentAxis
@@ -93,11 +94,11 @@ export function Home(){
 								/>
 								<VictoryBar
 								horizontal
-									style={{
-										data: {
-											fill: ({ datum }) => datum.y > 10 ? 'green' : 
-											datum.y >= 5? "yellow": 'red',
-											 
+								style={{
+									data: {
+										fill: ({ datum }) => datum.y > 10 ? 'green' : 
+										datum.y >= 5? "yellow": 'red',
+										width: 6
 										},
 										labels: {
 											fontSize: '10px'

@@ -15,4 +15,11 @@ z-index: 1;
 		img{
 			height: 50px;
 		}
+
+		div{
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: left;
+		}
 `;
