@@ -88,7 +88,7 @@ web-vitals                  |1.1.2
 
 ## 📁 Diretório
 ```javascript
-MyGPS-Tracking
+Hubkn
   ╚═src
      ╠═index.js
      ╠═ App.tsx
